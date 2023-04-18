@@ -14,6 +14,10 @@ figure {
     display: inline-grid;
     border: 1px solid #000000;
 }
+figure:hover {
+    margin: 100px;
+    width: 300px;
+}
 figcaption {
     font-size: 1.5vw;
 }

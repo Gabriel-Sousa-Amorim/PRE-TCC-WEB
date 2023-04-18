@@ -1,0 +1,19 @@
+@charset 'utf-8';
+body {
+    background-color: aquamarine;
+}
+section {
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+}
+figure {
+    background-color: #fff;
+    row-gap: 50px;
+    column-gap: 50px;
+    display: inline-grid;
+    border: 1px solid #000000;
+}
+figcaption {
+    font-size: 1.5vw;
+}

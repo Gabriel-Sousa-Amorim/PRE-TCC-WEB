@@ -4,46 +4,42 @@ body {
   padding: 0px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-section {
-  padding: 10px;
+.container {
+  padding: 1vw;
   background-color: #0f0f0f;
   text-align: center;
   display: inline-block;
 }
 div {
-  margin: 10px;
+  margin: 1vw;
   background-color: #272727;
   text-align: center;
   display: inline-block;
   padding: 5px;
-  border: 1px solid #000;
+  border-radius: 0.5vw;
 }
 figure {
-  margin: 20px ;
-  padding: 5px;
+  margin: 1vw ;
+  padding: 0.5vw;
   background-color: #FFF;
-  border: 1px solid #000000;
-  border-radius: 10px;
+  border-radius: 1vw;
   display: inline-grid;
 }
 img {
   width: 12vw;
   height: 12vw;
-  margin-bottom:10px;
-  border-radius: 10px; ;
-  transition: all 0.7s;
+  margin-bottom:1vw;
+  border-radius: 0.2vw;
+  transition: ease-in-out .275s;
+  cursor: pointer;
 }
 img:focus {
   width: 42vw;
   height:42vw;
 }
-figure:hover {
-    margin: 100px;
-    width: 300px;
-}
 figcaption {
   font-weight: 500;
-  font-size: 2vw;
+  font-size: 1vw
 }
 h1 {
   font-weight: 500;

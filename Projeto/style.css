@@ -17,13 +17,16 @@ div {
   display: inline-block;
   padding: 5px;
   border-radius: 0.5vw;
+  box-shadow: 0vw 0.6vw 1vw #000;
 }
 figure {
+  box-sizing: border-box;
   margin: 1vw ;
   padding: 0.5vw;
   background-color: #FFF;
   border-radius: 1vw;
   display: inline-grid;
+  box-shadow: 0vw 0.1vw 1vw #000;
 }
 img {
   width: 12vw;
@@ -33,27 +36,41 @@ img {
   transition: ease-in-out .275s;
   cursor: pointer;
 }
+.img2 {
+  margin-bottom: 0.5vw;
+}
 img:focus {
   width: 42vw;
   height:42vw;
 }
 figcaption {
   font-weight: 500;
+<<<<<<< HEAD
   font-size: 2vw;
+=======
+  font-size: 1.5vw;
+}
+.figcaption2 {
+  font-size: 1vw;
+>>>>>>> Gabriel
 }
 h1 {
   font-weight: 500;
   font-size: 2vw;
 }
 h4 {
+  color: #FFF;
+  text-shadow: 0.5vw 0.5vw 1vw #000;
   font-weight: 500;
   font-size: 1.5vw;
 }
 .Hyperlink {
+  display: inline-block;
   text-decoration: none;
-  color: #AAA;
+  color: #2cd5ff;
+  text-shadow: 0.5vw 0.5vw 1vw #000;
 }
 .Hyperlink:hover {
   text-decoration:underline;
-  color: #FFF;
+  color: #0055f3;
 }

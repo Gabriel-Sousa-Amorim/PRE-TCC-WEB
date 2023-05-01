@@ -40,8 +40,8 @@ figure {
   box-shadow: 0vw 0.1vw 1vw #000;
 }
 img {
-  width: 12vw;
-  height: 12vw;
+  width: 120px;
+  height: 120px;
   margin-bottom: 1vw;
   border-radius: 0.2vw;
   cursor: pointer;
@@ -55,20 +55,17 @@ img:focus {
   height: 42vw;
 }
 figcaption {
-  font-weight: 500;
   font-size: 1.5vw;
 }
 .figcaption2 {
   font-size: 1vw;
 }
 h1 {
-  font-weight: 500;
   font-size: 2vw;
 }
 h4 {
   color: #fff;
   text-shadow: 0.5vw 0.5vw 1vw #000;
-  font-weight: 500;
   font-size: 1.5vw;
 }
 .Hyperlink {
@@ -81,7 +78,7 @@ h4 {
   text-decoration: underline;
   color: #0055f3;
 }
-@media (max-width: 425px) {
+@media (max-width: 800px) {
   .items {
     display: inline-grid;
     grid-template-rows: 1fr;
@@ -102,7 +99,7 @@ h4 {
     height: 25vw;
     margin-right: 2vw;
   }
-  .img2 {
+  .img {
     margin-bottom: 0.5vw;
   }
   img:focus {

@@ -18,12 +18,23 @@ div {
   padding: 5px;
   border-radius: 0.5vw;
   box-shadow: 0vw 0.6vw 1vw #000;
+  width: 80vw;
+}
+.header {
+  color: #fff;
+  width: 80vw;
+}
+.header > h1 {
+  font-size: 3vw;
+}
+.header > p {
+  font-size: 1.5vw;
 }
 figure {
   box-sizing: border-box;
-  margin: 1vw ;
+  margin: 1vw;
   padding: 0.5vw;
-  background-color: #FFF;
+  background-color: #fff;
   border-radius: 1vw;
   display: inline-grid;
   box-shadow: 0vw 0.1vw 1vw #000;
@@ -31,35 +42,31 @@ figure {
 img {
   width: 12vw;
   height: 12vw;
-  margin-bottom:1vw;
+  margin-bottom: 1vw;
   border-radius: 0.2vw;
-  transition: ease-in-out .275s;
   cursor: pointer;
+  transition: all 0.2s;
 }
 .img2 {
   margin-bottom: 0.5vw;
 }
 img:focus {
   width: 42vw;
-  height:42vw;
+  height: 42vw;
 }
 figcaption {
   font-weight: 500;
-<<<<<<< HEAD
-  font-size: 2vw;
-=======
   font-size: 1.5vw;
 }
 .figcaption2 {
   font-size: 1vw;
->>>>>>> Gabriel
 }
 h1 {
   font-weight: 500;
   font-size: 2vw;
 }
 h4 {
-  color: #FFF;
+  color: #fff;
   text-shadow: 0.5vw 0.5vw 1vw #000;
   font-weight: 500;
   font-size: 1.5vw;
@@ -71,6 +78,35 @@ h4 {
   text-shadow: 0.5vw 0.5vw 1vw #000;
 }
 .Hyperlink:hover {
-  text-decoration:underline;
+  text-decoration: underline;
   color: #0055f3;
+}
+@media (max-width: 425px) {
+  .items {
+    display: inline-grid;
+    grid-template-rows: 1fr;
+  }
+  figure {
+    grid-template-columns: repeat(2, 5fr);
+  }
+  figcaption {
+    place-self: center start;
+    font-size: 3vw;
+  }
+  .figcaption2 {
+    place-self: center start;
+    font-size: 3vw;
+  }
+  img {
+    width: 25vw;
+    height: 25vw;
+    margin-right: 2vw;
+  }
+  .img2 {
+    margin-bottom: 0.5vw;
+  }
+  img:focus {
+      width: 45vw;
+      height: 45vw;
+  }
 }

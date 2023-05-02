@@ -33,6 +33,16 @@ main > section {
   width: 90vw;
 }
 
+footer > section {
+  margin: 2vw;
+  padding: 1.5vw;
+  background-color: #050505;
+  border-radius: 1vw;
+  box-shadow: 0 0.5vw 1vw #000;
+  display: block;
+  box-sizing: border-box;
+}
+
 .container-header > a {
   display: inline-block;
   font-size: x-large;

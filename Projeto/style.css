@@ -33,6 +33,16 @@ main > section {
   width: 90vw;
 }
 
+footer > section {
+  margin: 2vw;
+  padding: 1.5vw;
+  background-color: #050505;
+  border-radius: 1vw;
+  box-shadow: 0 0.5vw 1vw #000;
+  display: block;
+  box-sizing: border-box;
+}
+
 .container-header > a {
   display: inline-block;
   font-size: x-large;
@@ -73,14 +83,13 @@ img {
 .img2 {
   margin-bottom: 0vw;
 }
-img:focus{
-    
+img:focus{   
 width:42vw;
   height: 42vw;
 }
 figcaption {
   color: #000;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 @media (max-width: 1000px) {
@@ -104,14 +113,23 @@ figcaption {
         place-items: center center;
     }
     img:focus {
-        width:  400px;
-        height: 400px;
+        width:  300px;
+        height: 300px;
     }
     figcaption {
-    font-size: medium;
+      display: block;
+      padding: 10px;
+    font-size: 9px;
     }
-    .figcaption2 {
-    font-size: small;
+    figcaption:hover::after {
+      content: "\a Clique na imagem ao lado \a para ampliar a mesma.";
+      white-space: pre-wrap;
+      color: red;
+      font-size: xx-small;
     }
 }
-
+@media (max-width: 700px) {
+    img:focus {
+        width:  190px;
+        height: 190px;
+}}

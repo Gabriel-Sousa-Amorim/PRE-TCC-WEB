@@ -1,10 +1,11 @@
 @charset 'utf-8';
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 html,
 body {
   margin: 0;
   padding: 0;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color-scheme: dark;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 header,
 main {
@@ -21,6 +22,10 @@ header > div {
   box-shadow: 0 0.5vw 1vw #000;
   display: block;
   box-sizing: border-box;
+}
+header h1 {
+  font-family: 'Lilita One', cursive;
+  text-shadow: 0 0.5vw 1vw #000;
 }
 
 main > section {

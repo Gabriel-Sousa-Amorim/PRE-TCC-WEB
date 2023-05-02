@@ -114,8 +114,8 @@ figcaption {
         place-items: center center;
     }
     img:focus {
-        width:  400px;
-        height: 400px;
+        width:  200px;
+        height: 200px;
     }
     figcaption {
     font-size: medium;

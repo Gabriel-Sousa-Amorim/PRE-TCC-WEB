@@ -83,14 +83,13 @@ img {
 .img2 {
   margin-bottom: 0vw;
 }
-img:focus{
-    
+img:focus{   
 width:42vw;
   height: 42vw;
 }
 figcaption {
   color: #000;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 @media (max-width: 1000px) {
@@ -120,13 +119,10 @@ figcaption {
     figcaption {
       display: block;
       padding: 10px;
-    font-size: medium;
-    }
-    .figcaption2 {
-    font-size: small;
+    font-size: 9px;
     }
     figcaption:hover::after {
-      content: "\a Clique na imagem ao lado \a para ampliar ela.";
+      content: "\a Clique na imagem ao lado \a para ampliar a mesma.";
       white-space: pre-wrap;
       color: red;
       font-size: xx-small;

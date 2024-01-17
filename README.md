@@ -4,7 +4,7 @@
 
  - [Gabriel Sousa](https://github.com/Gabriel-Sousa-Amorim);
     - Programação do HTML e CSS. 
- - Adrielly do Nascimento.
+ - [Adrielly do Nascimento](https://github.com/AdriellyN).
     - Seleção de Imagens. 
  - Douglas Rafael.
     - Seleção de Imagens.
